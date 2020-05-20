@@ -1,26 +1,3 @@
-
-================
-capistrano
-================
-  
-alias csd='cap staging deploy
-alias cssd='cap staging_sidekiq deploy'
-
-alias cpd='cap production deploy'
-alias cpsd='cap production_sidekiq deploy'
-
-================
-rails
-================
-  
-alias brails='bundle exec rails'
-alias berc='brails c'
-alias bers='brails s'
-
-================
-git
-================
-  
 alias g=git
 alias ga='git add'
 alias gaa='git add --all'

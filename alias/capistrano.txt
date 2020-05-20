@@ -1,0 +1,5 @@
+alias csd='cap staging deploy
+alias cssd='cap staging_sidekiq deploy'
+
+alias cpd='cap production deploy'
+alias cpsd='cap production_sidekiq deploy'
