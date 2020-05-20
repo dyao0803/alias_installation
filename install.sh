@@ -2,5 +2,7 @@ touch .alias
 rm .alias
 cp alias.txt .alias
 mv .alias $HOME
-grep -qxF 'source "$HOME/.alias"' .profile || echo 'source "$HOME/.alias"' >> .profile
-source .profile
+cd $HOME
+grep -qxF 'source "$HOME/.alias"' .bash_profile || echo 'source "$HOME/.alias"' >> .bash_profile
+
+echo "Done. Restart terminal"
