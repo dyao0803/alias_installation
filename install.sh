@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # add array value based on alias/<filename>.txt
-to_installs=(capistrano rails git)
+to_installs=(capistrano rails git system)
 > alias.txt
 for i in ${to_installs[*]}
 do

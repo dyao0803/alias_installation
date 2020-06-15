@@ -1,0 +1,7 @@
+past='history | grep '
+pid='pgrep -f '
+pxg='ps -aux | grep -v grep | grep'
+rd=rmdir
+rvm-restart='rvm_reload_flag=1 source '\''/home/dyao/.rvm/scripts/rvm'\'
+stfu='kill -9 '
+tailf='tail -f 
